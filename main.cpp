@@ -67,7 +67,10 @@ void inorder(Node* ptr) {
 			cout << ptr->info << " ";
 			inorder(ptr->rightchild);
 		}
-}
+};
+void preorder(Node* ptr){
+
+};
 int main(){
 
 }
