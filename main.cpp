@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
 
@@ -14,6 +15,10 @@ public:
     rightchild = r;
     };
 };
+class BinaryTree{
+    public:
+    Node* ROOT;
+}
 
 int main(){
 
