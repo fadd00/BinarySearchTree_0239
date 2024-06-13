@@ -55,6 +55,9 @@ void search(string element, Node*& parent, Node*& currentNode) {
 				currentNode = currentNode->rightchild;
 	}
 };
+void inorder(Node* ptr) {
+    
+}
 int main(){
 
 }
