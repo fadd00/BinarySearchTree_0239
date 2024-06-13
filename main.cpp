@@ -21,7 +21,9 @@ class BinaryTree{
     BinaryTree() {
 		ROOT = nullptr; //initializing ROOT to null
 	}
+    void insert(insert element){//insert a node in the binary search tree
 
+    }
 };
 
 int main(){
