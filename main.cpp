@@ -30,6 +30,18 @@ class BinaryTree{
         Node* parent = nullptr;
 		Node* currentNode = nullptr;
 		search(element, parent, currentNode);
+
+        if (parent == nullptr) {
+			ROOT = newNode; // mark the new node as  root
+			return; // exit
+		}
+
+		if (element < parent->info) {
+			parent->leftchild = newNode;
+		}
+		else if (element > parent->info) {
+			parent->rightchild = newNode;
+		}
     }
 };
 
