@@ -80,6 +80,9 @@ void preorder(Node* ptr){
 			preorder(ptr->rightchild);
 		}
 };
+void postorder(Node* ptr){
+    
+}
 int main(){
 
 }
